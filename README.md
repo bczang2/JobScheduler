@@ -1,7 +1,7 @@
-jobScheduler for .net
+﻿jobScheduler for .net
 ========
 基于quartz.net框架: 使用mysql持久化存储job信息、使用topshelf框架集成window服务<br/>
-JobScheduler.Core： job处理核心先关类
+JobScheduler.Core： job处理核心相关类
 <br/>
 JobScheduler.DataAccess:  使用dapper获取job相关信息
 <br/>
