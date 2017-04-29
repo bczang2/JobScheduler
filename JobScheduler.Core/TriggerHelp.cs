@@ -10,7 +10,7 @@ namespace JobScheduler.Core
     public class TriggerHelp
     {
         /// <summary>
-        /// TriggerHelp
+        /// CronTriggerHelp
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="triggerName"></param>

@@ -7,6 +7,9 @@ using Quartz;
 
 namespace JobScheduler.Core
 {
+    /// <summary>
+    /// httpcommonJob，jobScheduler通过使用方传递的jsonData中的相关任务参数[如url、param、timeout]来调度执行集体任务
+    /// </summary>
     public class HttpCommonJob : IJob
     {
         public void Execute(IJobExecutionContext context)

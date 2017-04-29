@@ -8,6 +8,9 @@ using JobScheduler.DataAccess.IDao;
 
 namespace JobScheduler.DataAccess.DbFactory
 {
+    /// <summary>
+    /// Dao 层工厂
+    /// </summary>
     public class JobDbScheduleFactory
     {
         public static IJobDetailDao _JobDetailDao = null;

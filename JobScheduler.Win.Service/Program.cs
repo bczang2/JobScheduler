@@ -10,6 +10,10 @@ namespace JobScheduler.Win.Service
 {
     class Program
     {
+        /// <summary>
+        /// 服务入口
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //1、配置一个最简单服务
