@@ -18,5 +18,15 @@ namespace JobScheduler.Core.Common
 
             return ret;
         }
+
+        public static DateTime ConvertTimeSpanToDateTime(TimeSpan timeSpan)
+        {
+            if(timeSpan != null)
+            {
+                return new DateTime(timeSpan.Ticks);
+            }
+
+            return default(DateTime);
+        }
     }
 }
