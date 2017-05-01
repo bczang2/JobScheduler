@@ -1,10 +1,10 @@
 ﻿jobScheduler for .net
 ========
-基于quartz.net框架: 使用mysql持久化存储job信息、使用topshelf框架集成window服务<br/>
+基于quartz.net框架,只提供job调度服务，具体job业务逻辑需由调用方实现，如restful api或者soa。使用mysql持久化存储job信息、使用topshelf框架集成window服务,调用方通过web管理界面可以新增job，配置job参数<br/>
 JobScheduler.Core： job处理核心相关类
-<br/>
+<br/><br/>
 JobScheduler.DataAccess:  使用dapper获取job相关信息
-<br/>
+<br/><br/>
 JobScheduler.Web.Console: job信息展示、调度及简单操作界面
-<br/>
+<br/><br/>
 JobScheuler.Win.Server:   采用topshelf集成window服务调度job
