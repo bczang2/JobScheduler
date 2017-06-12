@@ -14,6 +14,8 @@ namespace JobScheduler.Core
     /// <summary>
     /// httpcommonJob，jobScheduler通过使用方传递的jsonData中的相关任务参数[如url、postData、timeout]来调度执行具体任务
     /// </summary>
+    [DisallowConcurrentExecution]
+    [PersistJobDataAfterExecution]
     public class HttpCommonJob : IJob
     {
         public void Execute(IJobExecutionContext context)
